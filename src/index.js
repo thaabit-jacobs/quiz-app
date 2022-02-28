@@ -5,8 +5,8 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import questions from './questions';
 
-function QuizeApp(props){
-  return (
+class QuizeApp extends React.Component{
+  render (
     <div className='questionaire'>
       <div className='questionaire-header'>
         <h1>Quiz</h1>
