@@ -47,6 +47,10 @@ input[type="checkbox"] {
   border-radius: 7px;
 }
 
+.checkbox:checked{
+  color: black;
+}
+
 .checkbox:hover{
   background: rgb(236, 198, 128);
   border: solid rgb(148, 97, 3) 1px;
