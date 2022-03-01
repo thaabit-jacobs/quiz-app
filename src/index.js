@@ -5,8 +5,11 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import questions from './questions';
 
+class Question extends React.Component{
+  
+}
 class QuizeApp extends React.Component{
-  render (
+  render () {
     <div className='questionaire'>
       <div className='questionaire-header'>
         <h1>Quiz</h1>
@@ -35,7 +38,7 @@ class QuizeApp extends React.Component{
         })
       }
     </div>
-  )
+  }
 }
 
 ReactDOM.render(
